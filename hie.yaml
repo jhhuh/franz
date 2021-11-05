@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:franz"
+    - path: "./app/client.hs"
+      component: "exe:franz"
+    - path: "./app/server.hs"
+      component: "exe:franzd"
